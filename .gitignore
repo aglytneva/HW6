@@ -1,0 +1,9 @@
+/Домашка 6.iml
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+/.idea/
