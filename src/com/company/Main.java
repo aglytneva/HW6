@@ -12,14 +12,12 @@ public class Main {
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("ФИО сотрудника = " + fullName);
         // Задание 2
-        String fullNameUpper = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчета " + fullNameUpper);
+        System.out.println("Данные ФИО сотрудника для заполнения отчета " + fullName.toUpperCase());
         // Задание 3
-        String fullNameForAdmin =fullName.replace(" ",";");
-        System.out.println("Данные ФИО сотрудника для административного отдела - "+ fullNameForAdmin);
-        String fullNameWithoutMistake = fullName.replace("ё", "е");
-        String fullNameWithoutMistake2 = fullNameWithoutMistake.replace("Ё", "Е");
-        System.out.println("Данные ФИО сотрудника - "+ fullNameWithoutMistake2);
+        System.out.println("Данные ФИО сотрудника для административного отдела - "+ fullName.replace(" ",";"));
+        fullName = fullName.replace("ё", "е");
+        fullName = fullName.replace("Ё", "Е");
+        System.out.println("Данные ФИО сотрудника - "+ fullName);
 
     }
 }
