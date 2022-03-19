@@ -14,7 +14,7 @@ public class Main {
         // Задание 2
         System.out.println("Данные ФИО сотрудника для заполнения отчета " + fullName.toUpperCase());
         // Задание 3
-        System.out.println("Данные ФИО сотрудника для административного отдела - "+ fullName.replace(" ",";"));
+        System.out.println("Данные ФИО сотрудника для административного отдела - "+ fullName.replace(" ","; "));
         fullName = fullName.replace("ё", "е");
         fullName = fullName.replace("Ё", "Е");
         System.out.println("Данные ФИО сотрудника - "+ fullName);
